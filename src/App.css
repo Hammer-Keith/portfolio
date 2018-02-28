@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40px;
+  position: fixed;
+}
+.bigBanner {
+  height: 75vh;
+}
+
+.App-header {
+  background-color: #222;
+  height: 40px;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: white;
+  text-align: left;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+td {
+  margin-top: 5px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.login {
+  position: sticky;
+  top: 10px;
+  right: 10px;
+  text-align: right;
+}
+.headerbutton {
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  color: #f2f2f2;
+  background-color: transparent;
+  border-color: transparent;
+}
+.headerbutton:hover {
+  color: #222222;
+  background-color: #f2f2f2;
+}
+.landingImage {
+  height: 100vh;
+  background-image: url("./SDCliffs.jpg");
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.spacer {
+  height: 150px;
+}
+
+.skills {
+  padding-top: 85px;
+}
+.aboutMe {
+  padding-top: 25px;
+  width: 65%;
+  margin: 0px auto;
+}
+.logos {
+  height: 75px;
+  margin: 0px 20px;
+}
+.subHead {
+  text-shadow: 0px 0px 1px #ffffff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.contact {
+  display: inline;
+}
+.contactText {
+  margin: 2px;
+}
+.aboutMeText {
+  text-shadow: 0px 0px 2px #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
