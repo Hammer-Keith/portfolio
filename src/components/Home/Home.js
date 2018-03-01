@@ -162,7 +162,8 @@ class Home extends Component {
             <a href="http://165.227.55.253/">http://165.227.55.253/</a>
             <p>
               A Website that displayes and analyzes a given bitshares wallet,
-              and compares the value of each of your currencies.
+              and compares the value of each of your currencies. Personal
+              project.
             </p>
           </div>
         </div>
