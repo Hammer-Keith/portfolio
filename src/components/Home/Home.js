@@ -15,12 +15,12 @@ class Home extends Component {
     return (
       <div>
         <div className="login">
-          <a href={"#home"}>
+          <A HREF={"#home"}>
             <button className="headerbutton">Home</button>
-          </a>
-          <a href={"#projects"}>
+          </A>
+          <A HREF={"#projects"}>
             <button className="headerbutton">Projects</button>
-          </a>
+          </A>
         </div>
 
         <div name="home" className="landingImage">
