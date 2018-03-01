@@ -15,12 +15,15 @@ class Home extends Component {
     return (
       <div>
         <div className="login">
-          <a href={process.env.REACT_APP_LOGOUT}>
-            <button className="headerbutton">Logout</button>
+          <a href={"#home"}>
+            <button className="headerbutton">Home</button>
+          </a>
+          <a href={"#projects"}>
+            <button className="headerbutton">Projects</button>
           </a>
         </div>
 
-        <div className="landingImage">
+        <div name="home" className="landingImage">
           <div className="spacer" />
           <h1> Keith Hammer </h1>
           <h2 className="subHead">Contact</h2>
@@ -132,16 +135,24 @@ class Home extends Component {
             full stack websites.
           </p>
         </div>
-        <div className="projects">
+        <div name="projects" className="projects">
           <h2>Projects</h2>
           <div>
             <h3>Yelp Clone</h3>
-            <a href="http://www.yelpclone.keith-hammer.com/" />
+            <a href="http://www.yelpclone.keith-hammer.com/">
+              http://www.yelpclone.keith-hammer.com/
+            </a>
             <p>
               A full stack clone of Yelp.com made with a team of 3 other
-              students
+              students.
             </p>
-            <p> http://www.yelpclone.keith-hammer.com/</p>
+
+            <h3>Bitshares Wallet Info</h3>
+            <a href="http://165.227.55.253/">http://165.227.55.253/</a>
+            <p>
+              A Website that displayes and analyzes a given bitshares wallet,
+              and compares the value of each of your currencies.
+            </p>
           </div>
         </div>
       </div>
