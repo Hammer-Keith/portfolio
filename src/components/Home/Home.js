@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import logo from "../../logo.png";
+import ReactDOM from "react-dom";
 
 class Home extends Component {
   constructor(props) {
