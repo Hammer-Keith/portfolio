@@ -11,19 +11,29 @@ class Home extends Component {
   }
   componentDidMount(req, res, next) {}
 
+  componentDidUpdate() {
+    let hash = this.props.location.hash.replace("#", "");
+    if (hash) {
+      let node = ReactDOM.findDOMNode(this.refs[hash]);
+      if (node) {
+        node.scrollIntoView();
+      }
+    }
+  }
+
   render() {
     return (
       <div>
         <div className="login">
-          <A HREF={"#home"}>
+          <a HREF={"#home"}>
             <button className="headerbutton">Home</button>
-          </A>
-          <A HREF={"#projects"}>
+          </a>
+          <a HREF={"#projects"}>
             <button className="headerbutton">Projects</button>
-          </A>
+          </a>
         </div>
 
-        <div name="home" className="landingImage">
+        <div ref="home" className="landingImage">
           <div className="spacer" />
           <h1> Keith Hammer </h1>
           <h2 className="subHead">Contact</h2>
@@ -135,7 +145,7 @@ class Home extends Component {
             full stack websites.
           </p>
         </div>
-        <div name="projects" className="projects">
+        <div ref="projects" className="projects">
           <h2>Projects</h2>
           <div>
             <h3>Yelp Clone</h3>
