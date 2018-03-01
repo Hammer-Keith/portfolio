@@ -14,6 +14,12 @@ class Home extends Component {
   render() {
     return (
       <div>
+        <div className="login">
+          <a href={process.env.REACT_APP_LOGOUT}>
+            <button className="headerbutton">Logout</button>
+          </a>
+        </div>
+
         <div className="landingImage">
           <div className="spacer" />
           <h1> Keith Hammer </h1>
